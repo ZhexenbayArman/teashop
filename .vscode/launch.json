@@ -9,7 +9,6 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Open index.html",
-            "url": "http://localhost:8080",
             "file": "/Users/armantrs/teashop-1/index.html"
         }
     ]

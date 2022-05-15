@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link href="images/favicon.png" rel="shortcut icon">
     <title>Teashop-new</title>
-
+    <script src="constants.js"></script>
     <!--====== Google Font ======-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 
@@ -406,7 +406,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Молочный Улун</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай Молочный Улун', 2250, 2500)">Чай Молочный Улун</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -447,7 +447,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Зеленый чай Хуа Лун</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай Зеленый чай Хуа Лун', 6030, 6700)">Чай Зеленый чай Хуа Лун</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i><i class="far fa-star"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -488,7 +488,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Турецкий яблочный чай</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай Турецкий яблочный чай', 2700, 3000)">Чай Турецкий яблочный чай</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -529,7 +529,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай чёрный Эрл Грей</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай черный Эрл Грей', 3195, 3550)">Чай чёрный Эрл Грей</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -570,7 +570,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Улун Те Гуань Инь</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай Улун Те Гуань Инь', 2610, 2900)">Чай Улун Те Гуань Инь</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -611,7 +611,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Сенча</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай Сенча', 1080, 1200)">Чай Сенча</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -652,7 +652,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Черный с чабрецом</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай черный c чабрецом', 1530, 1700)">Чай Черный с чабрецом</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -693,7 +693,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Черный Ассам Дижу</a></span>
+                                                    <a href="product-detail.html" onclick="selectTea('Чай черный Ассам Дижу', 1800, 2000)">Чай Черный Ассам Дижу</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -734,7 +734,7 @@
 
                                                 <span class="product-o__name">
 
-                                                    <a href="product-detail.html">Чай Зеленый Бодрящая свежесть</a></span>
+                                                    <a href="product-detail.html?tea=12" onclick="selectTea(`Чай Зеленый Бодрящая свежесть`, 1620, 1800)">Чай Зеленый Бодрящая свежесть</a></span>
                                                 <div class="product-o__rating gl-rating-style"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
 
                                                     <span class="product-o__review">(23)</span></div>
@@ -747,6 +747,21 @@
                                     </div>
                                 </div>
                             </div>
+                            <script>
+                                function selectTea (name, price, old_price) {
+                                    const obj = {
+                                    name: name,
+                                    price: price,
+                                    old_price: old_price
+                                    }
+                                    Constants.selectedTeaName = name;
+                                    localStorage.setItem('tea_name', name);
+                                    localStorage.setItem('tea_price', price);
+                                    localStorage.setItem('tea_old_price', old_price);
+                                    nameOfTea = name;
+                                    // alert(Constants.selectedTeaName);
+                                }
+                            </script>
                             <!--<div class="col-lg-12">
                                 <div class="load-more">
 
